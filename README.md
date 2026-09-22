@@ -1,32 +1,62 @@
 # Transaction Processing & Operations Analytics
 
-A portfolio project demonstrating **SQL-based transaction analysis, KPI monitoring, failure-pattern analysis, and operational insights** using a synthetic dataset.
+A portfolio project demonstrating **SQL-based transaction analysis, KPI monitoring, failure-pattern investigation, and operational reporting** using synthetic data.
 
-## What it demonstrates
+## Business Scenario
+
+An operations team needs to understand transaction volume, approval/decline behavior, failure concentration, and operational patterns.
+
+The project uses SQL to turn transaction records into practical operational insights.
+
+## Key Analysis
 
 - Transaction volume and approval/decline analysis
-- KPI and SLA-oriented reporting
 - Failure-rate and decline-code analysis
 - Channel-level performance comparison
-- Root-cause-oriented operational investigation
-- Translating transaction data into management insights
+- KPI-oriented operational reporting
+- Root-cause-oriented investigation
+- Management-focused interpretation of findings
 
-## Project structure
+## Analysis Workflow
+
+```text
+Transaction Data
+      ↓
+Data Validation
+      ↓
+Volume & Outcome Analysis
+      ↓
+Failure / Decline Patterns
+      ↓
+Channel Comparison
+      ↓
+Operational Insights
+```
+
+## Project Structure
 
 - `data/transactions.csv` — synthetic transaction dataset
 - `sql/analysis.sql` — reusable SQL analysis queries
-- `insights.md` — example findings and operational interpretation
+- `insights.md` — example operational findings
 
-## Skills demonstrated
+## Skills Demonstrated
 
 **SQL:** Aggregation • Filtering • CASE logic • KPI calculations
 
-**Operations:** Transaction monitoring • Incident analysis • Trend analysis • Operational reporting
+**Operations:** Transaction monitoring • Exception analysis • Trend analysis • Operational reporting
 
-## Data note
+**Problem Solving:** Pattern identification • Root-cause-oriented investigation • Business interpretation
 
-All data is synthetic and created exclusively for portfolio demonstration. It does not contain employer or customer information.
+## Data Integrity
 
-## Related project
+All data is synthetic and created exclusively for portfolio demonstration.
 
-[IT Service Desk Operations Dashboard](https://natinaelaberashi.github.io/cloud-desk-it-support/)
+It does not contain employer, customer, payment-card, or confidential information.
+
+## Related Project
+
+IT Service Desk Operations Dashboard: https://natinaelaberashi.github.io/cloud-desk-it-support/
+
+## Interview Talking Point
+
+The project is intentionally focused on the reasoning behind operational analysis: **what changed, where the problem is concentrated, how to investigate it, and what action the data suggests**.
