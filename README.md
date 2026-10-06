@@ -55,7 +55,7 @@ It does not contain employer, customer, payment-card, or confidential informatio
 
 ## Related Project
 
-IT Service Desk Operations Dashboard: https://natinaelaberashi.github.io/cloud-desk-it-support/
+Operations Support Dashboard: https://natinaelaberashi.github.io/cloud-desk-it-support/
 
 ## Interview Talking Point
 
